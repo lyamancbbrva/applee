@@ -211,6 +211,7 @@ ul{list-style: none;}
     #titanium-learn{padding:20px 0;}
     #newphoria h3, #power h3{font-size: 2.5em;}
     #newphoria h6{font-size: 1.2em;}
+    #newphoria-img{height: 50vh;}
     #power-top, #power-img{display: inline-block}
     #power-bottom{height: 100vh;}
     #power-top{margin: 30vh auto;}
