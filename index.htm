@@ -18,19 +18,19 @@
     <header>
         <nav id="first-nav" class=" bg-silver">
             <div id="burger-nav">
-                <i class="fa-solid fa-xmark" onclick="open()"></i>
+                <i class="fa-solid fa-xmark" onclick="openn()"></i>
                 <ul>
-                    <li><a href="#">Store</a></li>
-                    <li><a href="#">Mac</a></li>
-                    <li><a href="#">Ipad</a></li>
-                    <li><a href="#">Iphone</a></li>
-                    <li><a href="#">Watch</a></li>
-                    <li><a href="#">Vision</a></li>
-                    <li><a href="#">AirPods</a></li>
-                    <li><a href="#">Tv & Home</a></li>
-                    <li><a href="#">Entertainment</a></li>
-                    <li><a href="#">Accerssories</a></li>
-                    <li><a href="#">Support</a></li>
+                    <li><a class="text-decoration-none" href="#">Store</a></li>
+                    <li><a class="text-decoration-none" href="#">Mac</a></li>
+                    <li><a class="text-decoration-none" href="#">Ipad</a></li>
+                    <li><a class="text-decoration-none" href="#">Iphone</a></li>
+                    <li><a class="text-decoration-none" href="#">Watch</a></li>
+                    <li><a class="text-decoration-none" href="#">Vision</a></li>
+                    <li><a class="text-decoration-none" href="#">AirPods</a></li>
+                    <li><a class="text-decoration-none" href="#">Tv & Home</a></li>
+                    <li><a class="text-decoration-none" href="#">Entertainment</a></li>
+                    <li><a class="text-decoration-none" href="#">Accerssories</a></li>
+                    <li><a class="text-decoration-none" href="#">Support</a></li>
                 </ul>
             </div>
             <div id="navbar">
@@ -131,7 +131,7 @@
                             </svg>
                         </span>
                     </a>
-                    <a role="button" id="globalnav-menubutton-link-bar" onclick="open()">
+                    <a role="button" id="globalnav-menubutton-link-bar" onclick="openn()">
                         <svg viewBox="0 0 18 18" width="20" height="50">
                             <polyline id="globalnav-menutrigger-bread-bottom" fill="none" stroke="currentColor"
                                 stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" points="2 12, 16 12"
@@ -294,42 +294,367 @@
         <section id="power" class="pt-4 text-center d-lg-flex">
             <div id="power-top" class="col-12 col-lg-6">
                 <h6 class="fw-bold pb-2">Iphone</h6>
-            <h3 class="fw-bold">Love the power. <br> Love the price.</h3>
-            <p class="w-50 mx-auto">From $999 or $41.62/mo. for 24 mo.</p>
-            <button class="rounded-pill border-0 buy">Buy</button>
-            <a href="#" class="text-decoration-none d-block py-4 learn-more">Learn More <i
-                    class="fa-solid fa-chevron-right"></i></a>
+                <h3 class="fw-bold">Love the power. <br> Love the price.</h3>
+                <p class="w-50 mx-auto">From $999 or $41.62/mo. for 24 mo.</p>
+                <button class="rounded-pill border-0 buy">Buy</button>
+                <a href="#" class="text-decoration-none d-block py-4 learn-more">Learn More <i
+                        class="fa-solid fa-chevron-right"></i></a>
             </div>
             <div class="col-12 col-lg-6" id="power-img">
-            <div id="power-bottom"></div>
+                <div id="power-bottom"></div>
             </div>
         </section>
         <section id="tour" class="pt-5 text-center">
             <div id="tour-top">
                 <h6 class="text-dark fw-bold">A Guided Tour of</h6>
                 <h3>iPhone 15 & <br />iPhone 15 Pro</h3>
-                <a href="" class="text-decoration-none learn-more ">Watch the film <i class="fa-regular fa-circle-play"></i></a>
+                <a href="" class="text-decoration-none learn-more ">Watch the film <i
+                        class="fa-regular fa-circle-play"></i></a>
             </div>
             <div id="tour-bottom" class="my-5">
                 <div id="tour-texts">
                     <h6 class="text-white fw-bold fs-4">A Guided Tour of</h6>
                     <h3>iPhone 15 & <br />iPhone 15 Pro</h3>
-                    <div class="my-3"> 
-                    <a href="" class="text-decoration-none text-dark bg-white rounded-pill ">Watch the film</a>
+                    <div class="my-3">
+                        <a href="" class="text-decoration-none text-dark bg-white rounded-pill">Watch the film</a>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="for-you" class="pt-5 text-center">
+        <section id="for-you" class="pt-5">
             <div class="container">
-                <h2>Which iPhone is right for you?</h2>
-
+                <h2 class="text-center">Which iPhone is right for you?</h2>
+                <div id="for-you-cards" class="text-center">
+                    <div class="for-you-card py-4">
+                        <div class="for-you-img">
+                            <img src="img/compare_iphone_15.png" class="w-100" alt="iphone 15">
+                        </div>
+                        <div class="colors-img">
+                            <img src="img/swatch_iphone_15_circle.png" alt="colors">
+                        </div>
+                        <span class="fs-75">New</span>
+                        <h6 class="fw-bold">Iphone 15 Pro</h6>
+                        <h5>The ultimate Iphone</h5>
+                        <p>From $999</p>
+                        <button class="rounded-pill border-0 buy">Buy</button>
+                        <a href="#" class="text-decoration-none d-block py-4 learn-more fs-6">Learn more <i
+                                class="fa-solid fa-chevron-right"></i></a>
+                        <div class="details text-center">
+                            <div class="details1 detail">
+                                <h4>6.7″ or 6.1″</h4>
+                                <p>Super Retina XDR <br />display</p>
+                                <p>ProMotion technology</p>
+                                <p>
+                                <p class="typography-body-reduced column">Always-On display</p>
+                                </p>
+                            </div>
+                            <div class="details2 detail">
+                                <div class="details2-top">
+                                </div>
+                                <div class="details2-bottom">
+                                    <p>Titanium with textured <br />matte glass back</p>
+                                    <p>Action button</p>
+                                </div>
+                            </div>
+                            <div class="details3 detail">
+                                <div class="details3-top detail-top"></div>
+                                <div class="details3-bottom">
+                                    <p>Dynamic Island</p>
+                                    <p>A magical way to interact <br /> with iPhone</p>
+                                </div>
+                            </div>
+                            <div class="details4 detail">
+                                <div class="details4-top detail-top"></div>
+                                <div class="details4-bottom">
+                                    <p>Pro camera <br />system</p>
+                                    <p>48MP Main <br />Ultra Wide <br />Telephoto</p>
+                                    <p>Super-high-resolution <br> photos (24MP and 48MP)</p>
+                                    <p>Next-generation portraits with <br> Focus and Depth Control</p>
+                                </div>
+                            </div>
+                            <div class="details5 detail">
+                                <p>Up to</p>
+                                <h4 class="fw-bold">10x</h4>
+                                <p>optical zoom range</p>
+                            </div>
+                            <div class="details6 detail">
+                                <div class="details6-top detail-top"></div>
+                                <div class="details6-bottom">
+                                    <p>Emergency SOS</p>
+                                    <p>Emergency SOS <br />via satellite</p>
+                                    <p>Crash Detection</p>
+                                    <p>Roadside Assistance <br />via satellite</p>
+                                </div>
+                            </div>
+                            <div class="details-7 detail">
+                                <div class="details7-top detail-top"></div>
+                                <div class="details7-bottom">
+                                    <p>Up to 29 hours <br />video playback</p>
+                                </div>
+                            </div>
+                            <div class="details8 detail">
+                                <div class="details8-top detail-top"></div>
+                                <div class="details8-bottom">
+                                    <p>Supports USB 3 for <br /> up to 20x faster transfers</p>
+                                </div>
+                            </div>
+                            <div class="detail9">
+                                <div class="details9-top detail-top"></div>
+                                <div class="details9-bottom">
+                                    <p>Face ID</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="for-you-card py-4">
+                        <div class="for-you-img">
+                            <img src="img/compare_blue.png" class="w-100" alt="iphone 15 pink">
+                        </div>
+                        <div class="colors-img">
+                            <img src="img/swatch_iphone_15_circle2.png" alt="colors">
+                        </div>
+                        <span class="fs-75">New</span>
+                        <h6 class="fw-bold">Iphone 15 Pro</h6>
+                        <h5>The ultimate Iphone</h5>
+                        <p>From $999</p>
+                        <button class="rounded-pill border-0 buy">Buy</button>
+                        <a href="#" class="text-decoration-none d-block py-4 learn-more fs-6">Learn more <i
+                                class="fa-solid fa-chevron-right"></i></a>
+                        <div class="details text-center">
+                            <div class="details1 detail">
+                                <h4>6.7″ or 6.1″</h4>
+                                <p>Super Retina XDR <br />display</p>
+                                <p>ProMotion technology</p>
+                                <p>
+                                <p class="typography-body-reduced column">Always-On display</p>
+                                </p>
+                            </div>
+                            <div class="details2 detail">
+                                <div class="details2-top">
+                                </div>
+                                <div class="details2-bottom">
+                                    <p>Titanium with textured <br />matte glass back</p>
+                                    <p>Action button</p>
+                                </div>
+                            </div>
+                            <div class="details3 detail">
+                                <div class="details3-top detail-top"></div>
+                                <div class="details3-bottom">
+                                    <p>Dynamic Island</p>
+                                    <p>A magical way to interact <br /> with iPhone</p>
+                                </div>
+                            </div>
+                            <div class="details4 detail">
+                                <div class="details4-top detail-top"></div>
+                                <div class="details4-bottom">
+                                    <p>Pro camera <br />system</p>
+                                    <p>48MP Main <br />Ultra Wide <br />Telephoto</p>
+                                    <p>Super-high-resolution <br> photos (24MP and 48MP)</p>
+                                    <p>Next-generation portraits with <br> Focus and Depth Control</p>
+                                </div>
+                            </div>
+                            <div class="details5 detail">
+                                <p>Up to</p>
+                                <h4 class="fw-bold">10x</h4>
+                                <p>optical zoom range</p>
+                            </div>
+                            <div class="details6 detail">
+                                <div class="details6-top detail-top"></div>
+                                <div class="details6-bottom">
+                                    <p>Emergency SOS</p>
+                                    <p>Emergency SOS <br />via satellite</p>
+                                    <p>Crash Detection</p>
+                                    <p>Roadside Assistance <br />via satellite</p>
+                                </div>
+                            </div>
+                            <div class="details-7 detail">
+                                <div class="details7-top detail-top"></div>
+                                <div class="details7-bottom">
+                                    <p>Up to 29 hours <br />video playback</p>
+                                </div>
+                            </div>
+                            <div class="details8 detail">
+                                <div class="details8-top detail-top"></div>
+                                <div class="details8-bottom">
+                                    <p>Supports USB 3 for <br /> up to 20x faster transfers</p>
+                                </div>
+                            </div>
+                            <div class="detail9">
+                                <div class="details9-top detail-top"></div>
+                                <div class="details9-bottom">
+                                    <p>Face ID</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="for-you-card py-4">
+                        <div class="for-you-img">
+                            <img src="img/compare_iphone_15_pink.png" class="w-100" alt="iphone 15 pink">
+                        </div>
+                        <div class="colors-img">
+                            <img src="img/colors3.png" alt="colors">
+                        </div>
+                        <span class="fs-75">New</span>
+                        <h6 class="fw-bold">Iphone 15 Pro</h6>
+                        <h5>The ultimate Iphone</h5>
+                        <p>From $999</p>
+                        <button class="rounded-pill border-0 buy">Buy</button>
+                        <a href="#" class="text-decoration-none d-block py-4 learn-more fs-6">Learn more <i
+                                class="fa-solid fa-chevron-right"></i></a>
+                        <div class="details text-center">
+                            <div class="details1 detail">
+                                <h4>6.7″ or 6.1″</h4>
+                                <p>Super Retina XDR <br />display</p>
+                                <p>ProMotion technology</p>
+                                <p>
+                                <p class="typography-body-reduced column">Always-On display</p>
+                                </p>
+                            </div>
+                            <div class="details2 detail">
+                                <div class="details2-top">
+                                </div>
+                                <div class="details2-bottom">
+                                    <p>Titanium with textured <br />matte glass back</p>
+                                    <p>Action button</p>
+                                </div>
+                            </div>
+                            <div class="details3 detail">
+                                <div class="details3-top detail-top"></div>
+                                <div class="details3-bottom">
+                                    <p>Dynamic Island</p>
+                                    <p>A magical way to interact <br /> with iPhone</p>
+                                </div>
+                            </div>
+                            <div class="details4 detail">
+                                <div class="details4-top detail-top"></div>
+                                <div class="details4-bottom">
+                                    <p>Pro camera <br />system</p>
+                                    <p>48MP Main <br />Ultra Wide <br />Telephoto</p>
+                                    <p>Super-high-resolution <br /> photos (24MP and 48MP)</p>
+                                    <p>Next-generation portraits with <br> Focus and Depth Control</p>
+                                </div>
+                            </div>
+                            <div class="details5 detail">
+                                <p>Up to</p>
+                                <h4 class="fw-bold">10x</h4>
+                                <p>optical zoom range</p>
+                            </div>
+                            <div class="details6 detail">
+                                <div class="details6-top detail-top"></div>
+                                <div class="details6-bottom">
+                                    <p>Emergency SOS</p>
+                                    <p>Emergency SOS <br />via satellite</p>
+                                    <p>Crash Detection</p>
+                                    <p>Roadside Assistance <br />via satellite</p>
+                                </div>
+                            </div>
+                            <div class="details-7 detail">
+                                <div class="details7-top detail-top"></div>
+                                <div class="details7-bottom">
+                                    <p>Up to 29 hours <br />video playback</p>
+                                </div>
+                            </div>
+                            <div class="details8 detail">
+                                <div class="details8-top detail-top"></div>
+                                <div class="details8-bottom">
+                                    <p>Supports USB 3 for <br /> up to 20x faster transfers</p>
+                                </div>
+                            </div>
+                            <div class="detail9">
+                                <div class="details9-top detail-top"></div>
+                                <div class="details9-bottom">
+                                    <p>Face ID</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="for-you-card py-4">
+                        <div class="for-you-img">
+                            <img src="img/compare_iphone_se_black.png" class="w-100" alt="iphone 15 pink">
+                        </div>
+                        <div class="colors-img">
+                            <img src="img/colors4.png" alt="colors">
+                        </div>
+                        <span class="fs-75">New</span>
+                        <h6 class="fw-bold">Iphone 15 Pro</h6>
+                        <h5>The ultimate Iphone</h5>
+                        <p>From $999</p>
+                        <button class="rounded-pill border-0 buy">Buy</button>
+                        <a href="#" class="text-decoration-none d-block py-4 learn-more fs-6">Learn more <i
+                                class="fa-solid fa-chevron-right"></i></a>
+                        <div class="details text-center">
+                            <div class="details1 detail">
+                                <h4>6.7″ or 6.1″</h4>
+                                <p>Super Retina XDR <br />display</p>
+                                <p>ProMotion technology</p>
+                                <p>
+                                <p class="typography-body-reduced column">Always-On display</p>
+                                </p>
+                            </div>
+                            <div class="details2 detail">
+                                <div class="details2-top">
+                                </div>
+                                <div class="details2-bottom">
+                                    <p>Titanium with textured <br />matte glass back</p>
+                                    <p>Action button</p>
+                                </div>
+                            </div>
+                            <div class="details3 detail">
+                                <div class="details3-top detail-top"></div>
+                                <div class="details3-bottom">
+                                    <p>Dynamic Island</p>
+                                    <p>A magical way to interact <br /> with iPhone</p>
+                                </div>
+                            </div>
+                            <div class="details4 detail">
+                                <div class="details4-top detail-top"></div>
+                                <div class="details4-bottom">
+                                    <p>Pro camera <br />system</p>
+                                    <p>48MP Main <br />Ultra Wide <br />Telephoto</p>
+                                    <p>Super-high-resolution <br /> photos (24MP and 48MP)</p>
+                                    <p>Next-generation portraits with <br> Focus and Depth Control</p>
+                                </div>
+                            </div>
+                            <div class="details5 detail">
+                                <p>Up to</p>
+                                <h4 class="fw-bold">10x</h4>
+                                <p>optical zoom range</p>
+                            </div>
+                            <div class="details6 detail">
+                                <div class="details6-top detail-top"></div>
+                                <div class="details6-bottom">
+                                    <p>Emergency SOS</p>
+                                    <p>Emergency SOS <br />via satellite</p>
+                                    <p>Crash Detection</p>
+                                    <p>Roadside Assistance <br />via satellite</p>
+                                </div>
+                            </div>
+                            <div class="details-7 detail">
+                                <div class="details7-top detail-top"></div>
+                                <div class="details7-bottom">
+                                    <p>Up to 29 hours <br />video playback</p>
+                                </div>
+                            </div>
+                            <div class="details8 detail">
+                                <div class="details8-top detail-top"></div>
+                                <div class="details8-bottom">
+                                    <p>Supports USB 3 for <br /> up to 20x faster transfers</p>
+                                </div>
+                            </div>
+                            <div class="detail9">
+                                <div class="details9-top detail-top"></div>
+                                <div class="details9-bottom">
+                                    <p>Face ID</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="" class="text-decoration-none learn-more rounded-pill text-center d-block">Compare all iPhone models <i class="fa-solid fa-chevron-right"></i></a>
+                <a href="" class="text-decoration-none learn-more rounded-pill text-center d-block">Shop iPhone <i class="fa-solid fa-chevron-right"></i></a>
             </div>
         </section>
     </main>
-
-
-
 
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -347,18 +672,31 @@
         });
 
         // acilib baglanan menu
-        const hiddenNav = document.querySelector('#hidden-nav')
+        const elementsToToggle = [
+            document.querySelector('main'),
+            document.querySelector('#navbar'),
+            document.querySelector('#shop-iphone'),
+            document.querySelector('#second-nav'),
+        ];
+
         const xmark = document.querySelector('.fa-xmark')
-        flag = 1
-        if (flag == 1) {
-            hiddenNav.style.display = "none";
-            xmark.style.display = "none";
-            flag = 0;
-        }
-        else {
-            hiddenNav.style.display = "block";
-            xmark.style.display = "block";
-            flag = 1;
+        const hiddenNav = document.querySelector('#burger-nav')
+        let flag = 1;
+
+        function openn() {
+            elementsToToggle.forEach(element => {
+                if (flag === 1) {
+                    hiddenNav.style.display = "block";
+                    xmark.style.display = "block";
+                    element.style.display = "none";
+                } else {
+                    hiddenNav.style.display = "none"
+                    element.style.display = "block";
+                    xmark.style.display = "none";
+                }
+            });
+
+            flag = 1 - flag;
         }
     </script>
 </body>

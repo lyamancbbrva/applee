@@ -1,4 +1,5 @@
 *{font-family: Arial, Helvetica, sans-serif;}
+ul{list-style: none;}
 .bg-silver{background-color: #F2F2F2FF;}
 .fs-75{font-size: .75em;}
 #navbar{
@@ -28,7 +29,7 @@
     margin: 0 12px;
 }
 .swiper-slide h6, .phone-slide h6{color: #1D1D1FFF;}
-.swiper-slide span, .phone-slide span{
+.swiper-slide span, .phone-slide span {
     font-size: 0.625em;
     color: #bf4800;
     margin-bottom: -10px;
@@ -58,13 +59,12 @@
 #burger-nav li{margin: 15px 0;}
 .fa-xmark{
     padding: 20px;
-    display: flex;
-    justify-content: end;
+    text-align: end;
     display: none;
 }
 .phones{display: none;}
 #shop-iphone p{color: #6f6f6f;}
-#titanium span, #newphoria span{color: #bf4800;}
+#titanium span, #newphoria span, .for-you-card span{color: #bf4800;}
 #titanium h6, #newphoria h6{
     color: #8B887EFF;
     font-size:  1.1875em;
@@ -120,9 +120,59 @@
     font-weight: 600;
 }
 #for-you h2{font-size: 2em;}
-
-
-
+.for-you-img{
+    width: 125px;
+    height: 180px;
+    margin: auto;
+}
+.for-you-img img{height: 100%;}
+.colors-img img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.colors-img{
+    width: 91px;
+    height: 45px;
+    margin: auto;
+}
+#for-you-cards{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#for-you-cards h5{
+    color: #1d1d1f;
+    padding: 5px 0 20px 0;
+    font-size: 1em;
+}
+.details{
+    border-bottom:1px solid #ccc;
+    border-top:1px solid #ccc;
+}
+.detail{padding: 15px 0;}
+.for-you-card p{font-size: .8em;}
+.details2-top{
+    background: url('../img/icon_design1.png') center/contain no-repeat;
+    height: 41px;
+    width: 55px;
+    margin: auto;
+}
+.details3-top{background: url('../img/icon_dynamic2.png') center/contain no-repeat;}
+.details4-top{background: url('../img/icon4.png') center/contain no-repeat;}
+.details6-top{background: url('../img/icon_sos5.png') center/contain no-repeat;}
+.details7-top{background: url('../img/icon_6.png') center/contain no-repeat;}
+.details8-top{background: url('../img/icon_7.png') center/contain no-repeat;}
+.details9-top{background: url('../img/icon9.png') center/contain no-repeat;}
+.detail-top{
+    margin: auto;
+    height: 38px;
+    width: 38px;
+}
 /* FOR DESKTOP */
 @media only screen and (min-width: 768px){
     #logo{display: none;}
@@ -136,6 +186,7 @@
         font-weight: 600;
     }
     #navbar{
+        display: flex !important;
         justify-content: center;
         align-items: center;
     }
@@ -155,17 +206,15 @@
         transform: rotate(-90deg);
         height: 80vh;
         margin-top: -15%;
-
     }
-    #titanium{
-        max-height: 100vh;
-    }
+    #titanium{max-height: 100vh}
     #titanium-learn{padding:20px 0;}
     #newphoria h3, #power h3{font-size: 2.5em;}
     #newphoria h6{font-size: 1.2em;}
     #power-top, #power-img{display: inline-block}
     #power-bottom{height: 100vh;}
-    #power-top{display: none;}
+    #power-top{margin: 30vh auto;}
+    #tour-top{display: none;}
     #tour-bottom{
         height: 100vh;
         margin: 20px;
@@ -183,8 +232,12 @@
         color: #fff !important;
         font-size: 2.7em;
     }
-    #tour-texts a{
-        padding: 10px;
-        
+    #tour-texts a{padding: 10px;}
+    .for-you-img{
+        width: 180px;
+        height: 250px;
+        margin: auto;
     }
+    .colors-img{ margin: auto;}
+    .for-you-card{width: 20%;}
 }
