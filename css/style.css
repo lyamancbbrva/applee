@@ -173,6 +173,65 @@ ul{list-style: none;}
     height: 38px;
     width: 38px;
 }
+#save-phone h2{
+    font-size: 2em;
+    font-weight: 500;
+    padding: 30px 5px;
+}
+.save-card h5{
+    font-size: 1.5em;
+    font-weight: 500;
+    /* padding: 40px 35px 0 35px; */
+}
+.save-card a{
+    color: #06c;
+    font-size: .9em;
+}
+#card1-bottom{background: url('../img/savei_phone.jpg') center/contain no-repeat;}
+#card3-bottom{background: url('../img/save3.jpg') bottom/contain no-repeat;}
+.save-card span, .save-card2 p{color: #6e6e73;}
+.save-card h5{padding: 30px;}
+#card2-center{
+    background: url('../img/save2.jpg') center/contain no-repeat;
+    height: 20vh;
+}
+.save-card a{ padding: 20px 0;}
+.save-card-img{height: 30vh;}
+#phones-bg{
+    background: url('../img/phones1.jpg') center/cover no-repeat;
+    height: 25vh;
+}
+#phones h3{
+    font-size: 2em;
+    font-weight: 600;
+    padding: 30px;
+}
+#phones p{
+    font-size: 1.1em;
+    padding: 0 30px;
+}
+#featured1-bg{
+    background: url('../img/feature1.jpg') center/contain no-repeat;
+    height: 20vh;
+}
+#accerssories h2, .featured-card h3{
+    font-size: 2em;
+    font-weight: 600;
+}
+.featured-card{margin: 20px 0;}
+.featured-card p{
+    font-size: 1.1em;
+    padding: 5px 30px;
+}
+#featured3-bg{
+    background: url('../img/feature3.jpg') 100% -1px/contain no-repeat;
+    height: 20vh;
+}
+#featured2-bg{
+    background: url('../img/featured2.jpg') center/cover no-repeat;
+    height: 40vh;
+}
+#shop-row .card {background-color: transparent;}
 /* FOR DESKTOP */
 @media only screen and (min-width: 768px){
     #logo{display: none;}
@@ -204,8 +263,8 @@ ul{list-style: none;}
     }
     #titanium-bottom{
         transform: rotate(-90deg);
-        height: 80vh;
-        margin-top: -15%;
+        height: 70vh;
+        margin-top: -10%;
     }
     #titanium{max-height: 100vh}
     #titanium-learn{padding:20px 0;}
@@ -239,6 +298,59 @@ ul{list-style: none;}
         height: 250px;
         margin: auto;
     }
+    #for-you h2{font-size: 3em; font-weight: bold;}
     .colors-img{ margin: auto;}
     .for-you-card{width: 20%;}
+    .save-card{height: 70vh;}
+    .save-card h5{
+        width: 60%;
+        margin: auto;
+        font-weight: bold;
+    }
+    #save-phone h2{font-size: 3em;}
+    .save-card a{font-size: 1.1em;}
+    .save-card p{width: 80%;margin: auto;}
+    /* .save-card{height: 70vh;} */
+    #phones-bg{
+        background-position: 50% 200px;
+        width: 100%;
+        height: 100%;
+    }
+    #phones{position: relative;}
+    #phones-text{
+        width: 30%;
+        position: absolute;
+        top: 6%;
+        z-index: 1;
+        right: 35%;
+    }
+    #phones .container{height: 80vh;}
+    .featured1, .featured2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .featured-card h3{font-size: 3em;}
+    .featured-card p{
+        font-size: 1.2em;
+        width: 60%;
+        margin: auto;
+    }
+    #featured1-bg{
+        height: 70vh;
+        width: 50%;
+    }
+    #featured2-bg{
+        background-size: cover;
+        order: -1;
+        height: 80vh;
+        width: 50%;
+    }
+    #featured3-bg{
+        height: 60vh;
+        width: 80%;
+        background-position: center;
+        margin: auto;
+    }
+    .featured3 h3{font-size: 2.7em;}
 }
