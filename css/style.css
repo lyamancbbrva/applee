@@ -1,7 +1,9 @@
 *{font-family: Arial, Helvetica, sans-serif;}
 ul{list-style: none;}
+body{overflow-x: hidden;}
 .bg-silver{background-color: #F2F2F2FF;}
 .fs-75{font-size: .75em;}
+.title{font-size: 2em;}
 #navbar{
     padding: 0 15px;
     display: flex;
@@ -97,10 +99,8 @@ ul{list-style: none;}
     background: url('../img/hero_iphone.jpg') center/cover no-repeat;
     height: 20vh;
 }
-#newphoria h3{font-size: 2em;}
 #power h3{
     color: transparent;
-    font-size: 2rem;
     background-clip: text;
     background-image: linear-gradient(90deg, #1e3791 0%, #2948b1 40%, #3153c6 55%, #385fda 60%);
 }
@@ -119,7 +119,6 @@ ul{list-style: none;}
     color: #000 !important;
     font-weight: 600;
 }
-#for-you h2{font-size: 2em;}
 .for-you-img{
     width: 125px;
     height: 180px;
@@ -174,7 +173,6 @@ ul{list-style: none;}
     width: 38px;
 }
 #save-phone h2{
-    font-size: 2em;
     font-weight: 500;
     padding: 30px 5px;
 }
@@ -202,7 +200,6 @@ ul{list-style: none;}
     height: 25vh;
 }
 #phones h3{
-    font-size: 2em;
     font-weight: 600;
     padding: 30px;
 }
@@ -214,10 +211,7 @@ ul{list-style: none;}
     background: url('../img/feature1.jpg') center/contain no-repeat;
     height: 20vh;
 }
-#accerssories h2, .featured-card h3{
-    font-size: 2em;
-    font-weight: 600;
-}
+#accerssories h2, .featured-card h3, .title, #phones h3, #save-phone h2{font-weight: 600;}
 .featured-card{margin: 20px 0;}
 .featured-card p{
     font-size: 1.1em;
@@ -232,6 +226,50 @@ ul{list-style: none;}
     height: 40vh;
 }
 #shop-row .card {background-color: transparent;}
+#ios-bottom{
+    background: url('../img/ios17.jpg') 40% -105px/cover no-repeat;
+    height: 60vh;
+    width: 100%;
+}
+.an-iphone1{background-color: #fff !important;}
+.an-iphone1 p, an-iphone1 a{font-size: 1.1em;}
+#ios2-bottom{
+    background: url('../img/switching_to_iphone.jpg') center/cover no-repeat;
+    height: 40vh;
+}
+#ios3-bottom{
+    background: url('../img/privacy.jpg') 50% -100px/cover no-repeat;
+    height: 50vh;
+}
+#accerssories h2{font-size: 2em;}
+.an-iphone1{margin: 10px 0;}
+#get-more-apple{
+    background: url('../img/apple_one__cq8ojsqxitea_large.jpg') center/contain no-repeat;
+    width: 90px;
+    height: 30px;
+    margin: auto;
+    padding-top: 50px;
+}
+#get-more h2{
+    font-size: 2em;
+    font-weight: bold;
+    padding: 20px 0;
+}
+#get-more p{
+    font-size: 1.4em;
+    padding: 20px 0 10px 0;
+}
+#get-more-icons{
+    background: url('../img/bundle__dlqe12erfzsm_large.jpg') center/contain no-repeat;
+    width: 300px;
+    height: 180px;
+    margin: auto;
+    margin-top: 30px;
+}
+.tv-body img{
+    width:64px;
+    height: 26px;
+}
 /* FOR DESKTOP */
 @media only screen and (min-width: 768px){
     #logo{display: none;}
@@ -301,7 +339,6 @@ ul{list-style: none;}
     #for-you h2{font-size: 3em; font-weight: bold;}
     .colors-img{ margin: auto;}
     .for-you-card{width: 20%;}
-    .save-card{height: 70vh;}
     .save-card h5{
         width: 60%;
         margin: auto;
@@ -310,7 +347,6 @@ ul{list-style: none;}
     #save-phone h2{font-size: 3em;}
     .save-card a{font-size: 1.1em;}
     .save-card p{width: 80%;margin: auto;}
-    /* .save-card{height: 70vh;} */
     #phones-bg{
         background-position: 50% 200px;
         width: 100%;
@@ -330,7 +366,6 @@ ul{list-style: none;}
         justify-content: center;
         align-items: center;
     }
-    .featured-card h3{font-size: 3em;}
     .featured-card p{
         font-size: 1.2em;
         width: 60%;
@@ -348,9 +383,43 @@ ul{list-style: none;}
     }
     #featured3-bg{
         height: 60vh;
-        width: 80%;
         background-position: center;
-        margin: auto;
     }
+    #ios2-botttom, #ios3-bottom{
+        height: 40vh;
+    }
+    #accerssories h2{font-size: 3em;}
     .featured3 h3{font-size: 2.7em;}
+    #ios-bottom{ height: 80vh;}
+    .an-iphone-text h3{
+        font-size: 3em; 
+        font-weight: bold;
+    }
+    .an-iphone1 h3{
+        font-size: 2.5em;
+        font-weight: bold;
+    }
+    .an-iphone-text p, .an-iphone-text a{font-size: 1.2em;}
+    .an-iphone-text{
+        position: absolute;
+        left: 40%;
+    }
+    #get-more h2{font-size: 3em;}
+    #get-more .container{height: 70vh;}
+    .an-iphone1{position: relative;}
+    #get-moree{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #get-more-icons{
+        order: -1;
+        height: 60%;
+        width: 60%;
+        margin: 20vh auto;
+    }
+    #get-more-apple{
+        height: 40%;
+        width: 40%;
+    }
 }
