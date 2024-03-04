@@ -1,6 +1,6 @@
 *{font-family: Arial, Helvetica, sans-serif;}
 ul{list-style: none;}
-body{overflow-x: hidden;}
+html,body{overflow-x: hidden;}
 .bg-silver{background-color: #F2F2F2FF;}
 .fs-75{font-size: .75em;}
 .title{font-size: 2em;}
@@ -270,6 +270,42 @@ body{overflow-x: hidden;}
     width:64px;
     height: 26px;
 }
+#footer-first p, #footer-first li{font-size: .9em; color: #0000007a;}
+#footer-first{
+    padding: 30px 0;
+
+}
+#footer-logo-sec svg{
+    width: 48px;
+    height: 48px;
+}
+#footer-logo-sec i, #footer-logo-sec span{
+    font-size: .9em;
+    color: #000000bd;
+}
+#footer-logo-sec{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: start;
+}
+.accordion-button:not(.collapsed){
+    background-color: transparent;
+    color: #000000bd;
+
+}
+.accordion-item button{
+    font-size: .8rem;
+    color: #000000bd;
+}
+.accordion-body li{ 
+    font-size: .8em;
+    color: #0000007a;
+}
+#footer-end a{color: #0071e3;}
+#footer-end {color: #000000b8;}
+#footer-end{font-size: .8em;}
+.desktop-footer{display: none;}
 /* FOR DESKTOP */
 @media only screen and (min-width: 768px){
     #logo{display: none;}
@@ -422,4 +458,14 @@ body{overflow-x: hidden;}
         height: 40%;
         width: 40%;
     }
+    #footer-accardion{display: none;}
+    .desktop-footer{display: block;}
+    .desktop-footer ul li a{
+        font-size: .8em;
+        font-weight: 400;
+        color: #000000b8;
+        text-decoration: none;
+    }
+    .desktop-footer li a:hover{text-decoration: underline}
+
 }
