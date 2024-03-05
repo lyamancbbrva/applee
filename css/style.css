@@ -1,22 +1,31 @@
 *{font-family: Arial, Helvetica, sans-serif;}
 ul{list-style: none;}
 html,body{overflow-x: hidden;}
+main h2, .fitness-logo{font-size: 2rem !important; }
 .bg-silver{background-color: #F2F2F2FF;}
 .fs-75{font-size: .75em;}
-.title{font-size: 2em;}
 #navbar{
     padding: 0 15px;
-    display: flex;
-    align-items: center;
     justify-content: space-between;
 }
-#desktop-nav-list{display: none;}
+#power-bottom, #titanium-bottom, #tour-bottom,#ios3-bottom, #arcade-bg, #fitness-bg, #news-bg, #auto-slider {height: 50vh;}
+.for-you-img, .colors-img, .details2-top, .detail-top, #get-more-apple, #get-more-icons{margin: auto;}
+#accerssories h2, .featured-card h3, .title, #phones h2, #save-phone h2, #tour h2{font-weight: 600;}
+#titanium span, #newphoria span, .for-you-card span{color: #bf4800;}
+.colors-img img, #for-you-cards{justify-content: center;}
+#navbar, .colors-img img, #nav-icons, #for-you-cards, #footer-logo-sec{display: flex;}
+#desktop-nav-list,#burger-nav, .phones, .desktop-footer, #hr, .fa-xmark, #tour-texts{display: none;}
+#nav-icons, #navbar, #tv-logo, #footer-logo-sec{align-items: center;}
+#featured2-bg, #ios2-bottom, #slider-music{height:40vh}
+#save-phone h2, .save-card h5{font-weight: 500;}
+.an-iphone1 p, .an-iphone1 a, .featured-card p, #phones p{font-size: 1.1em;}
+
+.love{color: #1e3791;}
 #logo svg{
     width: 25px;
     height: 55px;
     color: #303030FF !important;
 }
-#nav-icons{display: flex; align-items: center;}
 #nav-icons a{margin: 0 12px;}
 #nav-icons svg{
     height:50px;
@@ -51,7 +60,6 @@ html,body{overflow-x: hidden;}
 #burger-nav{
     background-color: #fbfbfd;
     height: 100vh;
-    display: none;
 }
 #burger-nav a{
     color: #333336FF;
@@ -62,11 +70,8 @@ html,body{overflow-x: hidden;}
 .fa-xmark{
     padding: 20px;
     text-align: end;
-    display: none;
 }
-.phones{display: none;}
 #shop-iphone p{color: #6f6f6f;}
-#titanium span, #newphoria span, .for-you-card span{color: #bf4800;}
 #titanium h6, #newphoria h6{
     color: #8B887EFF;
     font-size:  1.1875em;
@@ -82,10 +87,7 @@ html,body{overflow-x: hidden;}
     }
 #titanium-learn{padding:20px 0;}
 #titanium{background-color: #000;}
-#titanium-bottom{
-    background: url('../img/titanium.jpg') center/contain no-repeat;
-    height: 50vh;
-}
+#titanium-bottom{background: url('../img/titanium.jpg') center/contain no-repeat;}
 .learn-more{
     font-size:  1.1875em;
     color: #2997ff;
@@ -105,42 +107,27 @@ html,body{overflow-x: hidden;}
     background-image: linear-gradient(90deg, #1e3791 0%, #2948b1 40%, #3153c6 55%, #385fda 60%);
 }
 #power h6{font-size: 1.2em;}
-#power-bottom{
-    background: url('../img/3dene.png') center/contain no-repeat;
-    height: 50vh;
-}
-#tour-bottom{
-    background: url('../img/guided_tour.jpg') center/cover no-repeat;
-    height: 50vh;
-}
-#tour-texts{display: none;}
+#power-bottom{background: url('../img/3dene.png') center/contain no-repeat;}
+#tour-bottom{background: url('../img/guided_tour.jpg') center/cover no-repeat;}
 #tour h3{
     font-size: 2.4em;
     color: #000 !important;
-    font-weight: 600;
 }
 .for-you-img{
     width: 125px;
     height: 180px;
-    margin: auto;
 }
-.for-you-img img{height: 100%;}
+.for-you-img img, .colors-img img{height: 100%;}
 .colors-img img{
-    display: flex;
-    justify-content: center;
     width: 100%;
-    height: 100%;
     object-fit: contain;
 }
 .colors-img{
     width: 91px;
     height: 45px;
-    margin: auto;
 }
 #for-you-cards{
-    display: flex;
     gap: 10px;
-    justify-content: center;
     flex-wrap: wrap;
     width: 100%;
 }
@@ -159,7 +146,6 @@ html,body{overflow-x: hidden;}
     background: url('../img/icon_design1.png') center/contain no-repeat;
     height: 41px;
     width: 55px;
-    margin: auto;
 }
 .details3-top{background: url('../img/icon_dynamic2.png') center/contain no-repeat;}
 .details4-top{background: url('../img/icon4.png') center/contain no-repeat;}
@@ -168,19 +154,12 @@ html,body{overflow-x: hidden;}
 .details8-top{background: url('../img/icon_7.png') center/contain no-repeat;}
 .details9-top{background: url('../img/icon9.png') center/contain no-repeat;}
 .detail-top{
-    margin: auto;
     height: 38px;
     width: 38px;
 }
-#save-phone h2{
-    font-weight: 500;
-    padding: 30px 5px;
-}
-.save-card h5{
-    font-size: 1.5em;
-    font-weight: 500;
-    /* padding: 40px 35px 0 35px; */
-}
+#save-phone h2{ padding: 30px 5px;}
+#power{background-color: #FBFBFDFF;}
+.save-card h5{ font-size: 1.5em;}
 .save-card a{
     color: #06c;
     font-size: .9em;
@@ -189,42 +168,21 @@ html,body{overflow-x: hidden;}
 #card3-bottom{background: url('../img/save3.jpg') bottom/contain no-repeat;}
 .save-card span, .save-card2 p{color: #6e6e73;}
 .save-card h5{padding: 30px;}
-#card2-center{
-    background: url('../img/save2.jpg') center/contain no-repeat;
-    height: 20vh;
-}
+#card2-center{background: url('../img/save2.jpg') center/contain no-repeat;}
+#card2-center, #featured1-bg, #featured3-bg{height: 20vh;}
 .save-card a{ padding: 20px 0;}
 .save-card-img{height: 30vh;}
 #phones-bg{
     background: url('../img/phones1.jpg') center/cover no-repeat;
     height: 25vh;
 }
-#phones h3{
-    font-weight: 600;
-    padding: 30px;
-}
-#phones p{
-    font-size: 1.1em;
-    padding: 0 30px;
-}
-#featured1-bg{
-    background: url('../img/feature1.jpg') center/contain no-repeat;
-    height: 20vh;
-}
-#accerssories h2, .featured-card h3, .title, #phones h3, #save-phone h2{font-weight: 600;}
+#phones h2{ padding: 30px;}
+#phones p{ padding: 0 30px;}
+#featured1-bg{background: url('../img/feature1.jpg') center/contain no-repeat;}
 .featured-card{margin: 20px 0;}
-.featured-card p{
-    font-size: 1.1em;
-    padding: 5px 30px;
-}
-#featured3-bg{
-    background: url('../img/feature3.jpg') 100% -1px/contain no-repeat;
-    height: 20vh;
-}
-#featured2-bg{
-    background: url('../img/featured2.jpg') center/cover no-repeat;
-    height: 40vh;
-}
+.featured-card p{ padding: 5px 30px;}
+#featured3-bg{background: url('../img/feature3.jpg') 100% -1px/contain no-repeat;}
+#featured2-bg{background: url('../img/featured2.jpg') center/cover no-repeat;}
 #shop-row .card {background-color: transparent;}
 #ios-bottom{
     background: url('../img/ios17.jpg') 40% -105px/cover no-repeat;
@@ -232,100 +190,106 @@ html,body{overflow-x: hidden;}
     width: 100%;
 }
 .an-iphone1{background-color: #fff !important;}
-.an-iphone1 p, an-iphone1 a{font-size: 1.1em;}
-#ios2-bottom{
-    background: url('../img/switching_to_iphone.jpg') center/cover no-repeat;
-    height: 40vh;
-}
-#ios3-bottom{
-    background: url('../img/privacy.jpg') 50% -100px/cover no-repeat;
-    height: 50vh;
-}
-#accerssories h2{font-size: 2em;}
+#ios2-bottom{ background: url('../img/switching_to_iphone.jpg') 50% 50px/cover no-repeat;}
+#ios3-bottom{ background: url('../img/privacy.jpg') 50% -100px/cover no-repeat;}
 .an-iphone1{margin: 10px 0;}
 #get-more-apple{
     background: url('../img/apple_one__cq8ojsqxitea_large.jpg') center/contain no-repeat;
     width: 90px;
     height: 30px;
-    margin: auto;
     padding-top: 50px;
 }
-#get-more h2{
-    font-size: 2em;
-    font-weight: bold;
-    padding: 20px 0;
-}
+#get-more h2{padding: 20px 0;}
 #get-more p{
     font-size: 1.4em;
     padding: 20px 0 10px 0;
 }
 #get-more-icons{
     background: url('../img/bundle__dlqe12erfzsm_large.jpg') center/contain no-repeat;
-    width: 300px;
     height: 180px;
-    margin: auto;
     margin-top: 30px;
 }
 .tv-body img{
     width:64px;
     height: 26px;
 }
-#footer-first p, #footer-first li{font-size: .9em; color: #0000007a;}
-#footer-first{
-    padding: 30px 0;
-
+#tv-logo{color: #fff;}
+.tv-body a{font-size: .9em;}
+#tv-logo i{
+    font-size: .8em !important;
+    padding-bottom: 20px;
 }
+#arcade-bg{background: url('../img/Screenshot\ 2024-03-04\ 184214.png') 100% 150px/contain no-repeat;}
+.fitness-logo, #tv-logo, #footer-logo-sec{gap: 5px;}
+.fitness-logo h2{font-weight: 700;}
+.fitness-logo i{padding-bottom: 10px;}
+#news a, #fitness a{font-size: 1.1em;}
+.fitness{margin: 20px 0;}
+.tv-body{background-color: #000; margin: 0 1px;}
+#fitness-bg{background: url('../img/update_promo_apple_fitness_iphone__762tbwjyo5ee_small.jpg') 50% -100px/cover no-repeat;}
+#introduction{
+    background: url('../img/apple-research__czkoifogwkeq_small.jpg') center/contain no-repeat;
+    height: 30vh;
+}
+.fitness-body{background-color: #F9F9F9FF;}
+#news-bg{background: url('../img/apple_news_plus_tile_update_x__crr8y9ssslqq_small.jpg') 50% -130px/cover no-repeat;}
+#news-top h2{ padding: 20px 0;}
+#gift-bg{background: url('../img/giftcard_tile__dartrujkircm_small_2x.jpg') center/cover no-repeat; height: 40vh;}
+#footer-first p, #footer-first li{font-size: .9em; color: #0000007a;}
+#footer-first{ padding: 30px 0;}
 #footer-logo-sec svg{
     width: 48px;
     height: 48px;
 }
-#footer-logo-sec i, #footer-logo-sec span{
-    font-size: .9em;
-    color: #000000bd;
-}
-#footer-logo-sec{
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    justify-content: start;
-}
+#footer-logo-sec{justify-content: start;}
+#auto-slider{background:url('../img/tv.png') center/cover;}
+#slider-music{background: #000 url('../img/684x384\ \(9\).jpg') center/cover no-repeat;}
 .accordion-button:not(.collapsed){
     background-color: transparent;
     color: #000000bd;
-
 }
-.accordion-item button{
+.accordion-item button, .accordion-body li, #footer-end, #footer-logo-sec i, #footer-logo-sec span , #footer-end{
     font-size: .8rem;
     color: #000000bd;
 }
-.accordion-body li{ 
-    font-size: .8em;
-    color: #0000007a;
-}
+.accordion{--bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem #fff}
 #footer-end a{color: #0071e3;}
-#footer-end {color: #000000b8;}
-#footer-end{font-size: .8em;}
-.desktop-footer{display: none;}
+
 /* FOR DESKTOP */
 @media only screen and (min-width: 768px){
-    #logo{display: none;}
-    #nav-icons{display: none;}
+    .learn-more:hover{text-decoration: underline !important;}
+    main h2{font-size: 2.8rem !important; font-weight: bold;}
+    #logo, #nav-icons, .swiper, #tour-top, #footer-accardion{display: none;}
+    .phones, #navbar, .featured1, .featured2, #get-moree, .tv-rows, .fitness-rows, .desktop-footer, #footer-end-textss, .introduction-card{display: flex;}
+    #navbar, .featured1, .featured2, #get-moree, .tv-rows, .fitness-rows, #new{justify-content: center;}
     #desktop-nav-list{display: initial;}
+    #titanium-bottom, #featured1-bg, #get-more .container{height: 70vh;}
+    #phones, #tour-bottom, .an-iphone1{position: relative;}
+    #titanium{max-height: 100vh}
+    #titanium-learn{padding:20px 0;}
+    #newphoria h6, .an-iphone-text p, .an-iphone-text a{font-size: 1.2em;}
+    #newphoria-img, #introduction{height: 50vh;}
+    #power-top, #power-img{display: inline-block}
+    #power-bottom, #tour-bottom{height: 100vh;}
+    #ios2-botttom, #ios3-bottom{height: 40vh; }
+    .for-you-card, #introduction{width: 20%;}
+    .save-card a, .featured-card p, .fitness a{font-size: 1.1em;}
+    #shop-iphone p,#shop-iphone a, #titanium p, #newphoria p, #power p{font-size: 1.3125em;}
+    .colors-img, .for-you-img, .save-card h5, .save-card p, .featured-card p{ margin: auto;}
+    #phones .container, #ios-bottom, #featured2-bg{height: 80vh;}
+    .featured1, .featured2{align-items: center;}
+    .featured-card p{width: 60%;}
+    #featured1-bg, #featured2-bg{width: 50%;}
+    #power-top{margin: 30vh auto;}
+    #save-phone .card, #new{min-height: 70vh;}
     #desktop-nav-list li{
         display: inline-block;
-        margin-left: 2vw;}
+        margin-left: 2vw;
+    }
     #desktop-nav-list li a{
         color: #000000cc; 
         font-weight: 600;
     }
-    #navbar{
-        display: flex !important;
-        justify-content: center;
-        align-items: center;
-    }
-    .phones{display: flex;}
-    .swiper{display: none;}
-    #shop-iphone p,#shop-iphone a, #titanium p, #newphoria p, #power p{font-size: 1.3125em;}
     #shop-iphone p{
         color: #1d1d1f;
         padding-top: 20px;
@@ -337,22 +301,10 @@ html,body{overflow-x: hidden;}
     }
     #titanium-bottom{
         transform: rotate(-90deg);
-        height: 70vh;
         margin-top: -10%;
     }
-    #titanium{max-height: 100vh}
-    #titanium-learn{padding:20px 0;}
-    #newphoria h3, #power h3{font-size: 2.5em;}
-    #newphoria h6{font-size: 1.2em;}
-    #newphoria-img{height: 50vh;}
-    #power-top, #power-img{display: inline-block}
-    #power-bottom{height: 100vh;}
-    #power-top{margin: 30vh auto;}
-    #tour-top{display: none;}
     #tour-bottom{
-        height: 100vh;
         margin: 20px;
-        position: relative;
         border-radius: 30px;
     }
     #tour-texts{
@@ -362,92 +314,38 @@ html,body{overflow-x: hidden;}
         left: 15%;
         text-align: start;
     }
-    #tour-texts h3{
-        color: #fff !important;
-        font-size: 2.7em;
-    }
+    #tour-texts h3{color: #fff !important;}
     #tour-texts a{padding: 10px;}
     .for-you-img{
         width: 180px;
         height: 250px;
-        margin: auto;
     }
-    #for-you h2{font-size: 3em; font-weight: bold;}
-    .colors-img{ margin: auto;}
-    .for-you-card{width: 20%;}
-    .save-card h5{
-        width: 60%;
-        margin: auto;
-        font-weight: bold;
-    }
-    #save-phone h2{font-size: 3em;}
-    .save-card a{font-size: 1.1em;}
-    .save-card p{width: 80%;margin: auto;}
+    .save-card h5{font-weight: bold;}
     #phones-bg{
         background-position: 50% 200px;
         width: 100%;
         height: 100%;
     }
-    #phones{position: relative;}
     #phones-text{
         width: 30%;
         position: absolute;
-        top: 6%;
+        top: 0;
         z-index: 1;
         right: 35%;
-    }
-    #phones .container{height: 80vh;}
-    .featured1, .featured2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .featured-card p{
-        font-size: 1.2em;
-        width: 60%;
-        margin: auto;
-    }
-    #featured1-bg{
-        height: 70vh;
-        width: 50%;
     }
     #featured2-bg{
         background-size: cover;
         order: -1;
-        height: 80vh;
-        width: 50%;
     }
     #featured3-bg{
         height: 60vh;
         background-position: center;
     }
-    #ios2-botttom, #ios3-bottom{
-        height: 40vh;
-    }
-    #accerssories h2{font-size: 3em;}
-    .featured3 h3{font-size: 2.7em;}
-    #ios-bottom{ height: 80vh;}
-    .an-iphone-text h3{
-        font-size: 3em; 
-        font-weight: bold;
-    }
-    .an-iphone1 h3{
-        font-size: 2.5em;
-        font-weight: bold;
-    }
-    .an-iphone-text p, .an-iphone-text a{font-size: 1.2em;}
     .an-iphone-text{
         position: absolute;
         left: 40%;
     }
-    #get-more h2{font-size: 3em;}
-    #get-more .container{height: 70vh;}
-    .an-iphone1{position: relative;}
-    #get-moree{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+    #get-moree, #new{align-items: center}
     #get-more-icons{
         order: -1;
         height: 60%;
@@ -458,8 +356,13 @@ html,body{overflow-x: hidden;}
         height: 40%;
         width: 40%;
     }
-    #footer-accardion{display: none;}
-    .desktop-footer{display: block;}
+    .tv-rows, .fitness-rows{
+        gap: 30px;
+        padding-bottom: 30px;
+    }
+    #introduction{background: url('../img/apple-research__czkoifogwkeq_large.jpg') center/contain no-repeat;}
+    .desktop-footer{padding: 20px 0;}
+    #new{justify-content: space-around;}
     .desktop-footer ul li a{
         font-size: .8em;
         font-weight: 400;
@@ -467,5 +370,6 @@ html,body{overflow-x: hidden;}
         text-decoration: none;
     }
     .desktop-footer li a:hover{text-decoration: underline}
-
+    #hr{display: block;}
+    #footer-end-textss,  .desktop-footer{justify-content: space-between;}
 }
