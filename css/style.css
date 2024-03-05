@@ -1,25 +1,25 @@
 *{font-family: Arial, Helvetica, sans-serif;}
 ul{list-style: none;}
 html,body{overflow-x: hidden;}
-main h2, .fitness-logo{font-size: 2rem !important; }
+main h2, .fitness-logo{font-size: 2em !important; }
 .bg-silver{background-color: #F2F2F2FF;}
 .fs-75{font-size: .75em;}
 #navbar{
     padding: 0 15px;
     justify-content: space-between;
 }
+.sec-title{padding: 30px 0 !important;}
 #power-bottom, #titanium-bottom, #tour-bottom,#ios3-bottom, #arcade-bg, #fitness-bg, #news-bg, #auto-slider {height: 50vh;}
 .for-you-img, .colors-img, .details2-top, .detail-top, #get-more-apple, #get-more-icons{margin: auto;}
 #accerssories h2, .featured-card h3, .title, #phones h2, #save-phone h2, #tour h2{font-weight: 600;}
 #titanium span, #newphoria span, .for-you-card span{color: #bf4800;}
 .colors-img img, #for-you-cards{justify-content: center;}
 #navbar, .colors-img img, #nav-icons, #for-you-cards, #footer-logo-sec{display: flex;}
-#desktop-nav-list,#burger-nav, .phones, .desktop-footer, #hr, .fa-xmark, #tour-texts{display: none;}
+#desktop-nav-list,#burger-nav, .phones, .desktop-footer, .fa-xmark, #tour-texts{display: none;}
 #nav-icons, #navbar, #tv-logo, #footer-logo-sec{align-items: center;}
 #featured2-bg, #ios2-bottom, #slider-music{height:40vh}
 #save-phone h2, .save-card h5{font-weight: 500;}
 .an-iphone1 p, .an-iphone1 a, .featured-card p, #phones p{font-size: 1.1em;}
-
 .love{color: #1e3791;}
 #logo svg{
     width: 25px;
@@ -179,7 +179,7 @@ main h2, .fitness-logo{font-size: 2rem !important; }
 #phones h2{ padding: 30px;}
 #phones p{ padding: 0 30px;}
 #featured1-bg{background: url('../img/feature1.jpg') center/contain no-repeat;}
-.featured-card{margin: 20px 0;}
+.featured-card{margin: 30px 0;}
 .featured-card p{ padding: 5px 30px;}
 #featured3-bg{background: url('../img/feature3.jpg') 100% -1px/contain no-repeat;}
 #featured2-bg{background: url('../img/featured2.jpg') center/cover no-repeat;}
@@ -189,10 +189,11 @@ main h2, .fitness-logo{font-size: 2rem !important; }
     height: 60vh;
     width: 100%;
 }
+#salam{background-color: #fff;}
 .an-iphone1{background-color: #fff !important;}
 #ios2-bottom{ background: url('../img/switching_to_iphone.jpg') 50% 50px/cover no-repeat;}
 #ios3-bottom{ background: url('../img/privacy.jpg') 50% -100px/cover no-repeat;}
-.an-iphone1{margin: 10px 0;}
+.an-iphone1{margin: 30px 0;}
 #get-more-apple{
     background: url('../img/apple_one__cq8ojsqxitea_large.jpg') center/contain no-repeat;
     width: 90px;
@@ -257,6 +258,7 @@ main h2, .fitness-logo{font-size: 2rem !important; }
 
 /* FOR DESKTOP */
 @media only screen and (min-width: 768px){
+    .sec-title{padding: 50px 0; font-size: 3em !important;}
     .learn-more:hover{text-decoration: underline !important;}
     main h2{font-size: 2.8rem !important; font-weight: bold;}
     #logo, #nav-icons, .swiper, #tour-top, #footer-accardion{display: none;}
@@ -271,15 +273,15 @@ main h2, .fitness-logo{font-size: 2rem !important; }
     #newphoria-img, #introduction{height: 50vh;}
     #power-top, #power-img{display: inline-block}
     #power-bottom, #tour-bottom{height: 100vh;}
-    #ios2-botttom, #ios3-bottom{height: 40vh; }
-    .for-you-card, #introduction{width: 20%;}
+    #ios2-bottom,#ios3-bottom{margin-top: 70px; height: 50vh;}
+    .for-you-card{width: 20%;}
     .save-card a, .featured-card p, .fitness a{font-size: 1.1em;}
     #shop-iphone p,#shop-iphone a, #titanium p, #newphoria p, #power p{font-size: 1.3125em;}
     .colors-img, .for-you-img, .save-card h5, .save-card p, .featured-card p{ margin: auto;}
     #phones .container, #ios-bottom, #featured2-bg{height: 80vh;}
     .featured1, .featured2{align-items: center;}
     .featured-card p{width: 60%;}
-    #featured1-bg, #featured2-bg{width: 50%;}
+    #featured1-bg, #featured2-bg, #introduction{width: 50%;}
     #power-top{margin: 30vh auto;}
     #save-phone .card, #new{min-height: 70vh;}
     #desktop-nav-list li{
@@ -327,11 +329,11 @@ main h2, .fitness-logo{font-size: 2rem !important; }
         height: 100%;
     }
     #phones-text{
-        width: 30%;
+        width: 50%;
         position: absolute;
-        top: 0;
+        inset: 0;
         z-index: 1;
-        right: 35%;
+        margin: auto;
     }
     #featured2-bg{
         background-size: cover;
@@ -364,7 +366,7 @@ main h2, .fitness-logo{font-size: 2rem !important; }
     .desktop-footer{padding: 20px 0;}
     #new{justify-content: space-around;}
     .desktop-footer ul li a{
-        font-size: .8em;
+        font-size: .7em;
         font-weight: 400;
         color: #000000b8;
         text-decoration: none;
@@ -372,4 +374,5 @@ main h2, .fitness-logo{font-size: 2rem !important; }
     .desktop-footer li a:hover{text-decoration: underline}
     #hr{display: block;}
     #footer-end-textss,  .desktop-footer{justify-content: space-between;}
+    footer .container{width: 60%;}
 }
