@@ -276,7 +276,7 @@ main h2, .fitness-logo{font-size: 2em !important; }
     #ios2-bottom,#ios3-bottom{margin-top: 70px; height: 50vh;}
     .for-you-card{width: 20%;}
     .save-card a, .featured-card p, .fitness a{font-size: 1.1em;}
-    #shop-iphone p,#shop-iphone a, #titanium p, #newphoria p, #power p{font-size: 1.3125em;}
+    #shop-iphone p,#shop-iphone a, #titanium p, #newphoria p, #power p{font-size: 1.3em;}
     .colors-img, .for-you-img, .save-card h5, .save-card p, .featured-card p{ margin: auto;}
     #phones .container, #ios-bottom, #featured2-bg{height: 80vh;}
     .featured1, .featured2{align-items: center;}
@@ -284,6 +284,8 @@ main h2, .fitness-logo{font-size: 2em !important; }
     #featured1-bg, #featured2-bg, #introduction{width: 50%;}
     #power-top{margin: 30vh auto;}
     #save-phone .card, #new{min-height: 70vh;}
+    #tv-logo i{font-size: 2.8em !important;}
+    .tv-body img {width: 120px; height: 100%;}
     #desktop-nav-list li{
         display: inline-block;
         margin-left: 2vw;
