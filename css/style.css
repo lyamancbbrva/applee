@@ -270,7 +270,8 @@ main h2, .fitness-logo{font-size: 2em !important; }
     #titanium{max-height: 100vh}
     #titanium-learn{padding:20px 0;}
     #newphoria h6, .an-iphone-text p, .an-iphone-text a{font-size: 1.2em;}
-    #newphoria-img, #introduction{height: 50vh;}
+    #newphoria-img{height: 55vh;}
+    #introduction{height: 50vh;}
     #power-top, #power-img{display: inline-block}
     #power-bottom, #tour-bottom{height: 100vh;}
     #ios2-bottom,#ios3-bottom{margin-top: 70px; height: 50vh;}
